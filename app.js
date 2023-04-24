@@ -15,7 +15,7 @@ function Start() {
 function Update() {
     if(isPlay){
         paint.clearRect(0, 0, canvas.width, canvas.height);
-        paint.fillRect(0, canvas.height-5, canvas.width, 5);
+        paint.fillRect(0, canvas.height - 5, canvas.width, 5);
         paint.fillText(score.toString(), 10, 10);
 
         if (GetRandom(50) < 1) {
